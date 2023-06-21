@@ -1,8 +1,12 @@
 <div class="formbold-main-wrapper">
   <!-- Author: FormBold Team -->
+  <script
+		function submit_form() {
+		document.formu1.submit();
+		document.formu1.reset(); </script>
   <!-- Learn More: https://formbold.com -->
   <div class="formbold-form-wrapper">
-    <form action="https://formspree.io/f/xknadkyv" method="POST">
+    <form name = "formu1" action="https://formspree.io/f/xknadkyv" method="POST" onsubmit="this.submit(); this.reset(); return false;">
         <div class="formbold-input-flex">
           <div>
               <label for="firstname" class="formbold-form-label"> Name or Alias</label>
@@ -54,7 +58,7 @@
         <div>
             <label for="message" class="formbold-form-label"> Your story </label>
             <textarea
-                rows="15"
+                rows="14"
                 name="message"
                 id="message"
                 placeholder="Type your message here"
@@ -63,10 +67,12 @@
             ></textarea>
         </div>
 
-        <button class="formbold-btn">
+        <button class="formbold-btn" >
             Send Message
         </button>
     </form>
+	
+}
   </div>
 </div>
 <style>
@@ -198,7 +204,10 @@
     background-color: #6A64F1;
     color: white;
     cursor: pointer;
+	onclick: submit_form(); 
     margin-top: 25px;
+	
+	
   }
   .formbold-btn:hover {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
