@@ -282,8 +282,6 @@
 
 .u-section-3 .u-list-item-1 {
   background-image: none;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -311,8 +309,6 @@
 
 .u-section-3 .u-list-item-2 {
   background-image: none;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -343,8 +339,6 @@
 
 .u-section-3 .u-list-item-3 {
   background-image: none;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -383,6 +377,8 @@
   }
 
   .u-section-3 .u-list-item-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
@@ -402,6 +398,8 @@
   }
 
   .u-section-3 .u-list-item-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
@@ -420,6 +418,8 @@
   }
 
   .u-section-3 .u-list-item-3 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
