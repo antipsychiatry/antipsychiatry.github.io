@@ -23,10 +23,19 @@
 
 .u-section-2 .u-form-1 {
   height: 607px;
+  --checkbox-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
   margin: 30px 185px 42px 202px;
 }
 
 .u-section-2 .u-input-1 {
+  text-transform: none;
+}
+
+.u-section-2 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-2 .u-label-2 {
   text-transform: none;
 }
 
@@ -38,24 +47,16 @@
   margin-left: 0;
 }
 
-.u-section-2 .u-label-3 {
-  text-transform: none;
-}
-
 .u-section-2 .u-input-3 {
   text-transform: none;
-}
-
-.u-section-2 .u-form-group-4 {
-  margin-left: 0;
 }
 
 .u-section-2 .u-input-4 {
   text-transform: none;
 }
 
-.u-section-2 .u-input-5 {
-  text-transform: none;
+.u-section-2 .u-form-group-5 {
+  margin-left: 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -72,11 +73,11 @@
     margin-right: 85px;
   }
 
-  .u-section-2 .u-form-group-3 {
+  .u-section-2 .u-form-group-2 {
     text-transform: none;
   }
 
-  .u-section-2 .u-form-group-4 {
+  .u-section-2 .u-form-group-3 {
     text-transform: none;
   }
 
